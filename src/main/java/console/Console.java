@@ -31,6 +31,7 @@ public class Console implements ConsoleBasicActions, ConsoleManagerActions, Cons
         customerDao.createTable();
     }
 
+
     @Override
     public void handle(String command) {
 
